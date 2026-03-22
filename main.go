@@ -7,6 +7,6 @@ func main() {
 	result := Process("Hello", "Word")
 	fmt.Println("Result:", result)
 
-	reversed := Reverse("Hello")
+	reversed := Reverse(result)
 	fmt.Println("Reversed:", reversed)
 }
